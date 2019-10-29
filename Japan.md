@@ -1,7 +1,7 @@
 # 日本旅行 🇯🇵🗼⛩️🍣
 
 
-![1](https://media.cntraveler.com/photos/58d2c0a97e623821b9f3181d/master/w_820,c_limit/yoshinoyama--japan-GettyImages-488852217.jpg)
+![1](https://i0.wp.com/coffscoast.focusmag.com.au/focus-uploads/2017/02/000040233036.jpg?zoom=2.625&resize=387%2C184&ssl=1)
 
 ## 待办 (❓待定,❗重要)
 
