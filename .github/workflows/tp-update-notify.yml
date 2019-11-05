@@ -1,4 +1,4 @@
-name: Python package
+name: tp update notify
 
 on: [push]
 
@@ -30,4 +30,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Play
       run: |
-        "python email_tool.py -p znamxlotwhxvbbeb -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新"
+        python email_tool.py -p znamxlotwhxvbbeb -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
