@@ -29,6 +29,8 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Play
+      env:
+        PWD: ${{secrets.email_pwd}}
       run: |
-        echo {{secrets.email_pwd}}
-        python email_tool.py -p {{secrets.email_pwd}} -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
+        echo {{PWD}}
+        python email_tool.py -p {{PWD}} -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
