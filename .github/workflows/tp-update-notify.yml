@@ -32,5 +32,5 @@ jobs:
       env:
         DDD: ${{secrets.email_pwd}}
       run: |
-        echo hahaha $(cat Japan.md)
-        python email_tool.py -p $DDD -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
+        python .\md2ht.py .\Japan.md 111.html
+        python email_tool.py -p $DDD -f 729454040@qq.com -t 729454040@qq.com -i 111.html -s 旅行计划更新 -h
