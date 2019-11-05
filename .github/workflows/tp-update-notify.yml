@@ -32,8 +32,10 @@ jobs:
       env:
         PWD: ${{secrets.email_pwd}}
         HHH: 123
+        DDD: ${{secrets.pwddd}}
       run: |
         echo $HHH
         echo $PWD
+        echo $DDD
         echo $HHH
         python email_tool.py -p $PWD -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
