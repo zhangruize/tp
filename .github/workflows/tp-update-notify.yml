@@ -34,4 +34,6 @@ jobs:
         HHH: 123
       run: |
         echo $HHH
+        echo $PWD
+        echo $HHH
         python email_tool.py -p $PWD -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
