@@ -39,7 +39,7 @@ class EmailSender:
 
         # 添加邮件内容
         # txt = MIMEText(self.content, 'plain', 'utf-8')
-        txt = MIMEText(self.content, 'plain', 'utf-8')
+        txt = MIMEText(self.content, 'plain' if not is_html else 'html', 'utf-8')
         attach.attach(txt)
 
         if self.tag is not None:
@@ -76,7 +76,7 @@ def send_email():
 
 
 if __name__ == '__main__':
-    opts, args = getopt.getopt(sys.argv[1:], "p:f:t:c:i:s:")
+    opts, args = getopt.getopt(sys.argv[1:], "p:f:t:c:i:s:h")
     arg_map = {}
     for opt, arg in opts:
         arg_map[opt] = arg
@@ -90,4 +90,8 @@ if __name__ == '__main__':
     elif '-i' in arg_map:
         with codecs.open(arg_map['-i'], 'r') as f:
             content += f.read()
+    if '-h' in arg_map:
+        is_html = True
+    else:
+        is_html = False
     send_email()
