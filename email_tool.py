@@ -90,5 +90,5 @@ if __name__ == '__main__':
     elif '-i' in arg_map:
         with codecs.open(arg_map['-i'], 'r') as f:
             content += f.read()
-
+    print('pwd:'+pwd)
     send_email()
