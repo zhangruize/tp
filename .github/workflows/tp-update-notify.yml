@@ -32,7 +32,7 @@ jobs:
       env:
         PWD: ${{secrets.email_pwd}}
         HHH: 123
-        DDD: ${{secrets.pwddd}}
+        DDD: ${{secrets.email_pwd}}
       run: |
         echo $HHH
         echo $PWD
