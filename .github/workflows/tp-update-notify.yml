@@ -30,12 +30,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Play
       env:
-        PWD: ${{secrets.email_pwd}}
-        HHH: 123
         DDD: ${{secrets.email_pwd}}
       run: |
-        echo $HHH
-        echo $PWD
-        echo $DDD
-        echo $HHH
         python email_tool.py -p $DDD -f 729454040@qq.com -t 729454040@qq.com -i Japan.md -s 旅行计划更新
