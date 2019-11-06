@@ -37,6 +37,4 @@ jobs:
         echo $DDD
         echo $SSS
         python md2ht.py Japan.md 111.html
-        python email_tool.py -p $DDD -f 729454040@qq.com,yin7968@qq.com,1562592793@qq.com -t 729454040@qq.com -i 111.html -s 旅行计划更新 -h
-        python email_tool.py -p $SSS -f 729454040@qq.com -t 729454040@qq.com -i 111.html -s 旅行计划更新 -h
-        python email_tool.py -p $DDD -f 729454040@qq.com -t 729454040@qq.com -i 111.html -s 旅行计划更新 -h
+        python email_tool.py -p $DDD -f 729454040@qq.com -t 729454040@qq.com,yin7968@qq.com,1562592793@qq.com -i 111.html -s 旅行计划更新 -h
