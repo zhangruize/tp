@@ -48,7 +48,7 @@ class EmailSender:
         if self.user is not None:
             # 显示在发件人
             # attach["From"] = "Jd.Id Android<%s>"%self.user
-            attach['From'] = formataddr(["Zhang Ruize", self.user])
+            attach['From'] = formataddr(["旅行计划提醒", self.user])
         if self.to_list:
             # 收件人列表
             attach["To"] = ";".join(self.to_list)
