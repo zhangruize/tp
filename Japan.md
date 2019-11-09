@@ -17,9 +17,9 @@
 
 |准备项|ZRZ|YIN|SW|ALL|
 |---|---|---|---|---|
-|护照|√|×|×||
+|护照|√|√|√||
 |签证|×|×|×||
-|机票往返|√ √|× ×|× ×||
+|机票往返|√ √|√ √|× ×||
 |攻略||||×|
 |住宿||||×|
 
@@ -28,7 +28,7 @@
 | 日期        |城市| 时间           | 干点啥  | 备注 |
 | ----------:|:---:|:-------------|:-----|:---|
 |**2020-2-7 周五**|成都| 22:30-01:05|GS7888航班， RZ从成都飞往天津。||
-||||不一定睡机场，可以考虑网吧集合|
+| |||不一定睡机场，可以考虑网吧集合|
 |**2-8 周六**|天津, 大阪|08:10-11:45| GS7977航班， 关西国际机场。||
 |||13:00-14:00|机场-难波 南海电铁（空港急行）|44min ¥920 附[电铁时刻表](https://www.howto-osaka.com/cn/traffic/train/timetable.html)|
 |||15:00|前往住处 [新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)|酒店待定 日本酒店15点入住，可以先吃午饭再入住并存放行李|
@@ -37,15 +37,19 @@
 |||17:00|地铁前往黑门市场||
 |||17:00|黑门市场([马蜂窝](http://www.mafengwo.cn/poi/6042081.html))|<img src="http://p4-q.mafengwo.net/s11/M00/3D/2D/wKgBEFsvsJKAJpe1AA2mO5SXljU35.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
 ||||晚饭|刺身 关东煮（萝卜好吃）|
-|||18:00|心斋桥 游船|全程20min ¥900 整半点发船 太左卫门桥上船 附[详情](https://osaka-info.jp/zh-TW/page/tombori-river-cruise)|
+|||18:00|心斋桥([马蜂窝](http://www.mafengwo.cn/poi/6418782.html))|<img src="http://p4-q.mafengwo.net/s14/M00/CA/B0/wKgE2l1MTEuAB9jUABnglRw0Kss50.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL2I0LXEubWFmZW5nd28ubmV0L3MxMS9NMDAvNDQvOUIvd0tnQkVGc1A1UnlBRHY3cEFBQUhaWlVQUmxROTkwLnBuZw%3D%3D%2Fgravity%2FSouthEast%2Fdx%2F10%2Fdy%2F11" width = 200/>|
+||||游船|全程20min ¥900 整半点发船 太左卫门桥上船 附[详情](https://osaka-info.jp/zh-TW/page/tombori-river-cruise)|
 |||18:30-|心斋桥 逛街 看小姐姐宅舞||
 |||22:00|回新今宫住处 睡觉||
 |**2-9 周天**|大阪，奈良|||
 |||8:00-9:00|起床 附近吃早餐|退房|
-|||10:00|天守阁||
+|||10:00|天守阁([马蜂窝](http://www.mafengwo.cn/poi/5441805.html))|<img src="http://n2-q.mafengwo.net/s12/M00/C4/85/wKgED1u1upmARj_1ABBJ1cEOpPQ31.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
 |||11:00-12:00|前往奈良|大阪难波-近铁奈良 快速急行 40min ¥560|
 |||12:00|午饭|近铁奈良站周围 商业街|
-|||13:00-18：00|东大寺 奈良公园 春日大社|主东大寺和奈良公园喂🦌|
+|||13:00-18：00|东大寺([马蜂窝](http://www.mafengwo.cn/poi/7544.html))|<img src="http://b2-q.mafengwo.net/s11/M00/D8/9B/wKgBEFsTtg2AbsywAA2xgc6MN6042.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||||奈良公园([马蜂窝](http://www.mafengwo.cn/poi/12415.html))|<img src="http://b3-q.mafengwo.net/s12/M00/E0/50/wKgED1uk90OAVGgZAEYp8rTc6h815.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||||主东大寺和奈良公园喂🦌||
+||||春日大社([马蜂窝](http://www.mafengwo.cn/poi/7547.html))|<img src="http://p2-q.mafengwo.net/s12/M00/58/01/wKgED1vZr3-AOz6wAAhyck30auE14.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
 |||22:00|住奈良|预定民宿，古屋最好|
 |**2-10 周一**|奈良，京都|||
 |||8:00-9:00|起床 早餐|早餐可以在周边吃|
@@ -80,6 +84,3 @@
 ## 有用站点
 
 - [大阪旅游官网](https://osaka-info.jp/zh-CN/page/tsutenkaku)
-
-
-
