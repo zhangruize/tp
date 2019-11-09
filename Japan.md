@@ -31,9 +31,12 @@
 ||||不一定睡机场，可以考虑网吧集合|
 |**2-8 周六**|天津, 大阪|08:10-11:45| GS7977航班， 关西国际机场。||
 |||13:00-14:00|机场-难波 南海电铁（空港急行）|44min ¥920 附[电铁时刻表](https://www.howto-osaka.com/cn/traffic/train/timetable.html)|
-|||15:00|前往住处 新今宫|酒店待定 日本酒店15点入住，可以先吃**午饭**再入住并存放行李|
-|||15:00-16:00|通天阁 天王寺|地铁前往黑门市场|
-|||17:00|黑门市场 晚饭|刺身 关东煮（萝卜好吃）|
+|||15:00|前往住处 [新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)|酒店待定 日本酒店15点入住，可以先吃午饭再入住并存放行李|
+|||15:00|[通天阁](https://osaka-info.jp/zh-CN/page/tsutenkaku)([官网](https://www.tsutenkaku.co.jp/))([官方中文指南](https://www.tsutenkaku.co.jp/Guide-pdf/2019mishiranguide_chinese.pdf))([马蜂窝](http://www.mafengwo.cn/poi/6274281.html))|<img src="http://n3-q.mafengwo.net/s10/M00/3F/81/wKgBZ1lCNhqALiiXAAwifjKyLw000.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+|||16:00|天王寺([马蜂窝](http://www.mafengwo.cn/poi/7031764.html))|<img src="http://n4-q.mafengwo.net/s11/M00/49/C7/wKgBEFppejOAJEY9AAjKkhd_v6Y61.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
+|||17:00|地铁前往黑门市场||
+|||17:00|黑门市场([马蜂窝](http://www.mafengwo.cn/poi/6042081.html))|<img src="http://p4-q.mafengwo.net/s11/M00/3D/2D/wKgBEFsvsJKAJpe1AA2mO5SXljU35.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||||晚饭|刺身 关东煮（萝卜好吃）|
 |||18:00|心斋桥 游船|全程20min ¥900 整半点发船 太左卫门桥上船 附[详情](https://osaka-info.jp/zh-TW/page/tombori-river-cruise)|
 |||18:30-|心斋桥 逛街 看小姐姐宅舞||
 |||22:00|回新今宫住处 睡觉||
@@ -73,55 +76,6 @@
 |**2-16 周日**|东京, 天津, 成都|02:15-04:55| GS7990航班， 羽田国际机场-天津。||
 ||||趁机再转转天津，比如天大新校区，跟BG吃个饭，实在不行德玛西亚。||
 |||19:05-22:05|GS7887航班， RZ从天津飞往成都。||
-
-## 景点&特色饮食&习俗
-
-快速了解每个城市的浏览点
-
-|城市|浏览点|快照|
-|:---|:---|:---|
-|大阪|[新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)||
-||[通天阁](https://osaka-info.jp/zh-CN/page/tsutenkaku)([官网](https://www.tsutenkaku.co.jp/))([官方中文指南](https://www.tsutenkaku.co.jp/Guide-pdf/2019mishiranguide_chinese.pdf))([马蜂窝](http://www.mafengwo.cn/poi/6274281.html))|<img src="http://n3-q.mafengwo.net/s10/M00/3F/81/wKgBZ1lCNhqALiiXAAwifjKyLw000.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-||天王寺([马蜂窝](http://www.mafengwo.cn/poi/7031764.html))|<img src="http://n4-q.mafengwo.net/s11/M00/49/C7/wKgBEFppejOAJEY9AAjKkhd_v6Y61.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
-||黑门市场||
-||心斋桥||
-||天守阁||
-||刺身||
-||关东煮 ||
-|奈良|东大寺||
-||奈良公园||
-||春日大社||
-|京都|伏见稻荷大社||
-||千本鸟居||
-||清水寺||
-||樱花铃铛||
-||和服浴衣||
-||三年坂 二年坂||
-||衹园 ||
-||八坂神社||
-||花间小路||
-||二条城||
-||京都御所||
-||本能寺||
-|东京|芝公园||
-||筑地市场||
-||台场||
-||六本木之丘||
-||田端||
-||浅草寺||
-||秋叶原||
-||皇宫||
-||银座||
-||歌舞伎町||
-||明治神宫||
-||参宫桥||
-||须贺神社||
-||涩谷||
-||下北泽||
-||富士山||
-||泡温泉||
-||河口湖||
-||山中湖||
 
 ## 有用站点
 
