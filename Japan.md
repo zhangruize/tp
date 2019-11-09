@@ -1,4 +1,4 @@
-# 日本旅行 🇯🇵🗼⛩️🍣
+# [日本旅行](https://zhangruize.github.io/tp/Japan)  🇯🇵🗼⛩️🍣
 
 <img src="https://i0.wp.com/coffscoast.focusmag.com.au/focus-uploads/2017/02/000040233036.jpg?zoom=2.625&resize=387%2C184&ssl=1" width = 500/>
 
@@ -74,15 +74,58 @@
 ||||趁机再转转天津，比如天大新校区，跟BG吃个饭，实在不行德玛西亚。||
 |||19:05-22:05|GS7887航班， RZ从天津飞往成都。||
 
-## 景点表
+## 景点&特色饮食&习俗
 
 快速了解每个城市的浏览点
 
-|城市|浏览点|
-|:---|:---|
-|大阪||
-|奈良||
-|京都||
-|东京||
+|城市|浏览点|快照|
+|:---|:---|:---|
+|大阪|[新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)||
+||[通天阁](https://osaka-info.jp/zh-CN/page/tsutenkaku)([官网](https://www.tsutenkaku.co.jp/))([官方中文指南](https://www.tsutenkaku.co.jp/Guide-pdf/2019mishiranguide_chinese.pdf))([马蜂窝](http://www.mafengwo.cn/poi/6274281.html))|<img src="http://n3-q.mafengwo.net/s10/M00/3F/81/wKgBZ1lCNhqALiiXAAwifjKyLw000.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||天王寺([马蜂窝](http://www.mafengwo.cn/poi/7031764.html))|<img src="http://n4-q.mafengwo.net/s11/M00/49/C7/wKgBEFppejOAJEY9AAjKkhd_v6Y61.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
+||黑门市场||
+||心斋桥||
+||天守阁||
+||刺身||
+||关东煮 ||
+|奈良|东大寺||
+||奈良公园||
+||春日大社||
+|京都|伏见稻荷大社||
+||千本鸟居||
+||清水寺||
+||樱花铃铛||
+||和服浴衣||
+||三年坂 二年坂||
+||衹园 ||
+||八坂神社||
+||花间小路||
+||二条城||
+||京都御所||
+||本能寺||
+|东京|芝公园||
+||筑地市场||
+||台场||
+||六本木之丘||
+||田端||
+||浅草寺||
+||秋叶原||
+||皇宫||
+||银座||
+||歌舞伎町||
+||明治神宫||
+||参宫桥||
+||须贺神社||
+||涩谷||
+||下北泽||
+||富士山||
+||泡温泉||
+||河口湖||
+||山中湖||
 
-[原始网页](https://zhangruize.github.io/tp/Japan)
+## 有用站点
+
+- [大阪旅游官网](https://osaka-info.jp/zh-CN/page/tsutenkaku)
+
+
+
