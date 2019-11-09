@@ -25,62 +25,64 @@
 
 ## 计划草稿
 
-| 日期        |城市| 时间           | 干点啥  | 备注 |
-| ----------:|:---:|:-------------|:-----|:---|
-|**2020-2-7 周五**|成都| 22:30-01:05|GS7888航班， RZ从成都飞往天津。||
-| |||不一定睡机场，可以考虑网吧集合|
-|**2-8 周六**|天津, 大阪|08:10-11:45| GS7977航班， 关西国际机场。||
-|||13:00-14:00|机场-难波 南海电铁（空港急行）|44min ¥920 附[电铁时刻表](https://www.howto-osaka.com/cn/traffic/train/timetable.html)|
-|||15:00|前往住处 [新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)|酒店待定 日本酒店15点入住，可以先吃午饭再入住并存放行李|
-|||15:00|[通天阁](https://osaka-info.jp/zh-CN/page/tsutenkaku)([官网](https://www.tsutenkaku.co.jp/))([官方中文指南](https://www.tsutenkaku.co.jp/Guide-pdf/2019mishiranguide_chinese.pdf))([马蜂窝](http://www.mafengwo.cn/poi/6274281.html))|<img src="http://n3-q.mafengwo.net/s10/M00/3F/81/wKgBZ1lCNhqALiiXAAwifjKyLw000.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-|||16:00|天王寺([马蜂窝](http://www.mafengwo.cn/poi/7031764.html))|<img src="http://n4-q.mafengwo.net/s11/M00/49/C7/wKgBEFppejOAJEY9AAjKkhd_v6Y61.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
-|||17:00|地铁前往黑门市场||
-|||17:00|黑门市场([马蜂窝](http://www.mafengwo.cn/poi/6042081.html))|<img src="http://p4-q.mafengwo.net/s11/M00/3D/2D/wKgBEFsvsJKAJpe1AA2mO5SXljU35.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-||||晚饭|刺身 关东煮（萝卜好吃）|
-|||18:00|心斋桥([马蜂窝](http://www.mafengwo.cn/poi/6418782.html))|<img src="http://p4-q.mafengwo.net/s14/M00/CA/B0/wKgE2l1MTEuAB9jUABnglRw0Kss50.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL2I0LXEubWFmZW5nd28ubmV0L3MxMS9NMDAvNDQvOUIvd0tnQkVGc1A1UnlBRHY3cEFBQUhaWlVQUmxROTkwLnBuZw%3D%3D%2Fgravity%2FSouthEast%2Fdx%2F10%2Fdy%2F11" width = 200/>|
-||||游船|全程20min ¥900 整半点发船 太左卫门桥上船 附[详情](https://osaka-info.jp/zh-TW/page/tombori-river-cruise)|
-|||18:30-|心斋桥 逛街 看小姐姐宅舞||
-|||22:00|回新今宫住处 睡觉||
-|**2-9 周天**|大阪，奈良|||
-|||8:00-9:00|起床 附近吃早餐|退房|
-|||10:00|天守阁([马蜂窝](http://www.mafengwo.cn/poi/5441805.html))|<img src="http://n2-q.mafengwo.net/s12/M00/C4/85/wKgED1u1upmARj_1ABBJ1cEOpPQ31.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-|||11:00-12:00|前往奈良|大阪难波-近铁奈良 快速急行 40min ¥560|
-|||12:00|午饭|近铁奈良站周围 商业街|
-|||13:00-18：00|东大寺([马蜂窝](http://www.mafengwo.cn/poi/7544.html))|<img src="http://b2-q.mafengwo.net/s11/M00/D8/9B/wKgBEFsTtg2AbsywAA2xgc6MN6042.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-||||奈良公园([马蜂窝](http://www.mafengwo.cn/poi/12415.html))|<img src="http://b3-q.mafengwo.net/s12/M00/E0/50/wKgED1uk90OAVGgZAEYp8rTc6h815.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-||||主东大寺和奈良公园喂🦌||
-||||春日大社([马蜂窝](http://www.mafengwo.cn/poi/7547.html))|<img src="http://p2-q.mafengwo.net/s12/M00/58/01/wKgED1vZr3-AOz6wAAhyck30auE14.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
-|||22:00|住奈良|预定民宿，古屋最好|
-|**2-10 周一**|奈良，京都|||
-|||8:00-9:00|起床 早餐|早餐可以在周边吃|
-|||9:00|前往京都 |JR奈良线 JR稻荷站下车，行李存储物柜|
-||||伏见稻荷大社([马蜂窝](http://www.mafengwo.cn/poi/7518.html))|<img src="http://b2-q.mafengwo.net/s8/M00/21/BF/wKgBpVVAW-mAfBlZABTDglVAIIU04.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-|||10:00-14:00|千本鸟居([马蜂窝](http://www.mafengwo.cn/poi/6498137.html))|<img src="http://p1-q.mafengwo.net/s11/M00/8E/7C/wKgBEFsdAgCANtBNABqgX5TnhSY62.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
-|||14:00|午饭|在稻荷站附近吃午饭|
-|||14:00|前往 清水寺|地铁清水五条站 樱花铃铛 和服浴衣|
-|||15:00-17:00|清水寺([马蜂窝](http://www.mafengwo.cn/poi/7516.html))|<img src="http://p4-q.mafengwo.net/s10/M00/6C/17/wKgBZ1k70MGAOGPUABQGfSedfQ411.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
-|||17:00|三年坂 二年坂 晚饭|路边小店吃晚饭|
-|||18:00|（青莲院门迹） 衹园 八坂神社|夜景 花间小路|
-|||20:00|前往 住处 二条城附近|酒店待定 回地铁站取行李 晚上可以在住处周围逛逛 附[储物柜查询](https://www.coinlocker-navi.com/)[(备用)]( http://coinlockersearch.com/)|
-|**2-11 周二**|京都，东京|||
-|||8:00-9:00|起床 早餐|早餐可以在周边吃|
-|||9:00-11:00|二条城 京都御所 本能寺||
-|||12:00-15:00|新干线 前往东京|京都站乘坐 希望号或光号 品川站下车|
-||||芝公园 筑地市场 台场 六本木之丘|住宿 赤坂见附 三天 附[酒店推荐](https://zhuanlan.zhihu.com/p/38897267)|
-|**2-12 周三**|东京|||
-||||田端 浅草寺 秋叶原 皇宫 银座||
+| 时间  | 地点&干点啥  | 备注 |
+| ----------:|:-------------|:-----|
+|**2020-2-7 周五**|**成都**||
+|22:30-01:05|GS7888航班， RZ从成都飞往天津。|不一定睡机场，可以考虑网吧集合|
+|**2-8 周六**|**天津, 大阪**||
+|08:10-11:45| GS7977航班， 关西国际机场。||
+|13:00-14:00|机场-难波 南海电铁（空港急行）|44min ¥920 附[电铁时刻表](https://www.howto-osaka.com/cn/traffic/train/timetable.html)|
+|15:00|前往住处 [新今宫](https://baike.baidu.com/item/%E6%96%B0%E4%BB%8A%E5%AE%AB%E7%AB%99/6610348)|酒店待定 日本酒店15点入住，可以先吃午饭再入住并存放行李|
+|15:00|[通天阁](https://osaka-info.jp/zh-CN/page/tsutenkaku)([官网](https://www.tsutenkaku.co.jp/))([官方中文指南](https://www.tsutenkaku.co.jp/Guide-pdf/2019mishiranguide_chinese.pdf))([马蜂窝](http://www.mafengwo.cn/poi/6274281.html))|<img src="http://n3-q.mafengwo.net/s10/M00/3F/81/wKgBZ1lCNhqALiiXAAwifjKyLw000.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+|16:00|天王寺([马蜂窝](http://www.mafengwo.cn/poi/7031764.html))|<img src="http://n4-q.mafengwo.net/s11/M00/49/C7/wKgBEFppejOAJEY9AAjKkhd_v6Y61.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
+|17:00|地铁前往黑门市场||
+|17:00|黑门市场([马蜂窝](http://www.mafengwo.cn/poi/6042081.html))|<img src="http://p4-q.mafengwo.net/s11/M00/3D/2D/wKgBEFsvsJKAJpe1AA2mO5SXljU35.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||晚饭|刺身 关东煮（萝卜好吃）|
+|18:00|心斋桥([马蜂窝](http://www.mafengwo.cn/poi/6418782.html))|<img src="http://p4-q.mafengwo.net/s14/M00/CA/B0/wKgE2l1MTEuAB9jUABnglRw0Kss50.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL2I0LXEubWFmZW5nd28ubmV0L3MxMS9NMDAvNDQvOUIvd0tnQkVGc1A1UnlBRHY3cEFBQUhaWlVQUmxROTkwLnBuZw%3D%3D%2Fgravity%2FSouthEast%2Fdx%2F10%2Fdy%2F11" width = 200/>|
+||游船|全程20min ¥900 整半点发船 太左卫门桥上船 附[详情](https://osaka-info.jp/zh-TW/page/tombori-river-cruise)|
+|18:30-|心斋桥 逛街 看小姐姐宅舞||
+|22:00|回新今宫住处 睡觉||
+|**2-9 周天**|**大阪，奈良**||
+|8:00-9:00|起床 附近吃早餐|退房|
+|10:00|天守阁([马蜂窝](http://www.mafengwo.cn/poi/5441805.html))|<img src="http://n2-q.mafengwo.net/s12/M00/C4/85/wKgED1u1upmARj_1ABBJ1cEOpPQ31.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+|11:00-12:00|前往奈良|大阪难波-近铁奈良 快速急行 40min ¥560|
+|12:00|午饭|近铁奈良站周围 商业街|
+|13:00-18：00|东大寺([马蜂窝](http://www.mafengwo.cn/poi/7544.html))|<img src="http://b2-q.mafengwo.net/s11/M00/D8/9B/wKgBEFsTtg2AbsywAA2xgc6MN6042.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||奈良公园([马蜂窝](http://www.mafengwo.cn/poi/12415.html))|<img src="http://b3-q.mafengwo.net/s12/M00/E0/50/wKgED1uk90OAVGgZAEYp8rTc6h815.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+||主东大寺和奈良公园喂🦌||
+||春日大社([马蜂窝](http://www.mafengwo.cn/poi/7547.html))|<img src="http://p2-q.mafengwo.net/s12/M00/58/01/wKgED1vZr3-AOz6wAAhyck30auE14.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
+|22:00|住奈良|预定民宿，古屋最好|
+|**2-10 周一**|**奈良，京都**||
+|8:00-9:00|起床 早餐|早餐可以在周边吃|
+|9:00|前往京都 |JR奈良线 JR稻荷站下车，行李存储物柜|
+||伏见稻荷大社([马蜂窝](http://www.mafengwo.cn/poi/7518.html))|<img src="http://b2-q.mafengwo.net/s8/M00/21/BF/wKgBpVVAW-mAfBlZABTDglVAIIU04.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+|10:00-14:00|千本鸟居([马蜂窝](http://www.mafengwo.cn/poi/6498137.html))|<img src="http://p1-q.mafengwo.net/s11/M00/8E/7C/wKgBEFsdAgCANtBNABqgX5TnhSY62.jpeg?imageMogr2%2Fthumbnail%2F%21305x183r%2Fgravity%2FCenter%2Fcrop%2F%21305x183%2Fquality%2F100" width = 200/>|
+|14:00|午饭|在稻荷站附近吃午饭|
+|14:00|前往 清水寺|地铁清水五条站 樱花铃铛 和服浴衣|
+|15:00-17:00|清水寺([马蜂窝](http://www.mafengwo.cn/poi/7516.html))|<img src="http://p4-q.mafengwo.net/s10/M00/6C/17/wKgBZ1k70MGAOGPUABQGfSedfQ411.jpeg?imageMogr2%2Fthumbnail%2F%21690x370r%2Fgravity%2FCenter%2Fcrop%2F%21690x370%2Fquality%2F100" width = 200/>|
+|17:00|三年坂 二年坂 晚饭|路边小店吃晚饭|
+|18:00|（青莲院门迹） 衹园 八坂神社|夜景 花间小路|
+|20:00|前往 住处 二条城附近|酒店待定 回地铁站取行李 晚上可以在住处周围逛逛 附[储物柜查询](https://www.coinlocker-navi.com/)[(备用)]( http://coinlockersearch.com/)|
+|**2-11 周二**|**京都，东京**||
+|8:00-9:00|起床 早餐|早餐可以在周边吃|
+|9:00-11:00|二条城 京都御所 本能寺||
+|12:00-15:00|新干线 前往东京|京都站乘坐 希望号或光号 品川站下车|
+||芝公园 筑地市场 台场 六本木之丘|住宿 赤坂见附 三天 附[酒店推荐](https://zhuanlan.zhihu.com/p/38897267)|
+|**2-12 周三**|**东京**||
+||田端 浅草寺 秋叶原 皇宫 银座||
 |**2-13 周四**|东京|||
-||||（偷窥坂） 歌舞伎町 明治神宫 参宫桥 须贺神社||
-|**2-14 周五**|东京，富士山|||
-||||涩谷 下北泽 （东大）||
-||||中午新宿站前往富士山|行李可以存新宿站储物柜两天|
-||||住富士山 泡温泉|河口湖or山中湖 附[温泉推荐](https://www.mafengwo.cn/wenda/detail-8147713.html)|
-|**2-15 周六**|富士山，东京|||
-||||中午富士山前往东京||
-||||晚饭后前往机场免税店||
-|**2-16 周日**|东京, 天津, 成都|02:15-04:55| GS7990航班， 羽田国际机场-天津。||
-||||趁机再转转天津，比如天大新校区，跟BG吃个饭，实在不行德玛西亚。||
-|||19:05-22:05|GS7887航班， RZ从天津飞往成都。||
+||（偷窥坂） 歌舞伎町 明治神宫 参宫桥 须贺神社||
+|**2-14 周五**|**东京，富士山**||
+||涩谷 下北泽 （东大）||
+||中午新宿站前往富士山|行李可以存新宿站储物柜两天|
+||住富士山 泡温泉|河口湖or山中湖 附[温泉推荐](https://www.mafengwo.cn/wenda/detail-8147713.html)|
+|**2-15 周六**|富士山，东京||
+||中午富士山前往东京||
+||晚饭后前往机场免税店||
+|**2-16 周日**|**东京, 天津, 成都**||
+|02:15-04:55| GS7990航班， 羽田国际机场-天津。||
+||趁机再转转天津，比如天大新校区，跟BG吃个饭，实在不行德玛西亚。||
+|19:05-22:05|GS7887航班， RZ从天津飞往成都。||
 
 ## 有用站点
 
