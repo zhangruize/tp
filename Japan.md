@@ -81,9 +81,9 @@
 
 |预订清单||
 |:---|---|
-|2-8 周六大阪一晚|具体位置无要求，地铁站附近，步行20min内，大阪城附近可以考虑|
-|2-9 周天奈良一晚|jr奈良or近铁奈良站附近，步行20min内|
-|2-10，2-11 周一周二京都两晚|衹园四条站or京都河源町站附近|
+|2-8 [周六大阪一晚](https://www.airbnb.cn/wishlists/653297740/join?invite_code=ZVVFRHWN&inviter_id=304215428)|具体位置无要求，地铁站附近，步行20min内，大阪城附近可以考虑|
+|2-9 [周天奈良一晚](https://www.airbnb.cn/wishlists/685872773/join?invite_code=IYQGCVNU&inviter_id=304215428)|jr奈良or近铁奈良站附近，步行20min内|
+|2-10，2-11 [周一周二京都两晚](https://www.airbnb.cn/wishlists/685881094/join?invite_code=YZYFTKJZ&inviter_id=304215428)|衹园四条站or京都河源町站附近|
 |2-12, 2-13 周三周四东京两晚|具体位置无要求，地铁站附近，步行20min内，优先考虑民俗内外部设施条件，浅草寺附近可以考虑|
 |2-14 周五富士山一晚|富士山山中湖，红富士之汤温泉附近优先|
 
