@@ -79,11 +79,11 @@
 
 ## 预订清单
 
-|预订清单||
+|预订清单|[日本订房注意事项，含准备材料](https://www.airbnb.cn/help/article/2274/%E5%85%B3%E4%BA%8E%E5%9C%A8%E6%97%A5%E6%9C%AC%E9%A2%84%E8%AE%A2%E6%88%BF%E6%BA%90%E6%88%91%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E4%BA%9B%E4%BB%80%E4%B9%88?q=japan)|
 |:---|---|
 |2-8 [周六大阪一晚](https://www.airbnb.cn/wishlists/653297740/join?invite_code=ZVVFRHWN&inviter_id=304215428)|具体位置无要求，地铁站附近，步行20min内，大阪城附近可以考虑|
-|2-9 [周天奈良一晚](https://www.airbnb.cn/wishlists/685872773/join?invite_code=IYQGCVNU&inviter_id=304215428)|jr奈良or近铁奈良站附近，步行20min内|
-|2-10，2-11 [周一周二京都两晚](https://www.airbnb.cn/wishlists/685881094/join?invite_code=YZYFTKJZ&inviter_id=304215428)|衹园四条站or京都河源町站附近|
+|2-9 [周天奈良一晚](https://www.airbnb.cn/trips/v1/465b5ccf-594b-432f-844d-e9bc6df45841)|jr奈良or近铁奈良站附近，步行20min内|
+|2-10，2-11 [周一周二京都两晚](https://www.airbnb.cn/trips/v1/d6e48d0e-9311-41f1-9c76-039255f617cf)|衹园四条站or京都河源町站附近|
 |2-12, 2-13 周三周四东京两晚|具体位置无要求，地铁站附近，步行20min内，优先考虑民俗内外部设施条件，浅草寺附近可以考虑|
 |2-14 周五富士山一晚|富士山山中湖，红富士之汤温泉附近优先|
 
