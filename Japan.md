@@ -81,11 +81,11 @@
 
 |预订清单|[日本订房注意事项，含准备材料](https://www.airbnb.cn/help/article/2274/%E5%85%B3%E4%BA%8E%E5%9C%A8%E6%97%A5%E6%9C%AC%E9%A2%84%E8%AE%A2%E6%88%BF%E6%BA%90%E6%88%91%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E4%BA%9B%E4%BB%80%E4%B9%88?q=japan)|
 |:---|---|
-|2-8 [周六大阪一晚](https://www.airbnb.cn/wishlists/653297740/join?invite_code=ZVVFRHWN&inviter_id=304215428)|具体位置无要求，地铁站附近，步行20min内，大阪城附近可以考虑|
-|2-9 [周天奈良一晚](https://www.airbnb.cn/trips/v1/465b5ccf-594b-432f-844d-e9bc6df45841)|jr奈良or近铁奈良站附近，步行20min内|
-|2-10，2-11 [周一周二京都两晚](https://www.airbnb.cn/trips/v1/d6e48d0e-9311-41f1-9c76-039255f617cf)|衹园四条站or京都河源町站附近|
-|2-12, 2-13 周三周四东京两晚|具体位置无要求，地铁站附近，步行20min内，优先考虑民俗内外部设施条件，浅草寺附近可以考虑|
-|2-14 周五富士山一晚|富士山山中湖，红富士之汤温泉附近优先|
+|2-8 周六大阪一晚|[行程](https://zh.airbnb.com/trips/v1/465b5ccf-594b-432f-844d-e9bc6df45841/ro/RESERVATION_USER_CHECKIN/HM5EHHWD5E/g) [房源](https://zh.airbnb.com/rooms/35351001?source_impression_id=p3_1576203291_s%2B7v8k2Ie3Emrbxt) [导航](https://www.google.com/maps/search/?api=1&query=3-ch%C5%8Dme-5-10%20Shikitsuhigasi%2C%20Naniwa-ku%2C%20Osaka%2C%20556-0012%2C%20Japan) 入住时间 16:00 － 23:00· 退房时间 10:00|
+|2-9 周天奈良一晚|[行程](https://zh.airbnb.com/trips/v1/465b5ccf-594b-432f-844d-e9bc6df45841/ro/RESERVATION2_CHECKIN/HMJZQRRHJF/g) [房源](https://zh.airbnb.com/rooms/20163579?source_impression_id=p3_1576204252_UaeL3Nolb9Ra1DB%2B) [导航](https://www.google.com/maps/search/?api=1&query=27-1%20Nashiharacho%2C%20Nara%2C%20Nara%20Prefecture%20630-8253%2C%20Japan) 入住时间 16:00 － 23:00· 退房时间 10:00|
+|2-10，2-11 周一周二京都两晚|[行程](https://zh.airbnb.com/trips/v1/d6e48d0e-9311-41f1-9c76-039255f617cf/ro/RESERVATION2_CHECKIN/HMSDY49PRD/g) [房源](https://zh.airbnb.com/rooms/23547783?source_impression_id=p3_1576204517_ASFavWlUhgVvuE7P) [导航](https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E5%B7%A6%E4%BA%AC%E5%8C%BA%E5%B1%B1%E7%AB%AF%E5%A4%A7%E5%9F%8E%E7%94%B0%E7%94%BA%EF%BC%93%EF%BC%91%E7%95%AA%E5%9C%B0%EF%BC%94%EF%BC%97) 入住时间 16:00 － 21:00· 退房时间 10:00 提前一天联系房东确定入住登记时间|
+|2-12, 2-13 周三周四东京两晚|[行程](https://zh.airbnb.com/trips/v1/893e85e3-c47d-4331-8e1e-6e7f8afa6c68/ro/RESERVATION2_CHECKIN/HMJ39EM5AK/g) [房源](https://zh.airbnb.com/rooms/31544671?source_impression_id=p3_1576204606_nBeY3%2FDZnig4MSzl) [导航](https://www.google.com/maps/search/?api=1&query=3%20Chome-34-8%20Higashino%2C%20Urayasu-shi%2C%20Chiba-ken%20279-0042%2C%20Japan) 入住时间 15:00 － 02:00 (次日)· 退房时间 11:00|
+|2-14 周五富士山一晚|[行程](https://zh.airbnb.com/trips/v1/893e85e3-c47d-4331-8e1e-6e7f8afa6c68/ro/RESERVATION_USER_CHECKIN/HMM5JRNKMW/g) [房源](https://zh.airbnb.com/rooms/26452884?source_impression_id=p3_1576204689_wX6BYDfZ59eOjcUx) [导航](https://www.google.com/maps/search/?api=1&query=29-2%20Yamanaka%2C%20Yamanakako-mura%2C%20Minamitsuru-gun%2C%20Yamanashi-ken%20401-0501%2C%20Japan) 入住时间 15:00 － 20:00· 退房时间 10:00|
 
 
 [原始网页](https://zhangruize.github.io/tp/Japan)
