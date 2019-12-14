@@ -2,11 +2,11 @@
 
 <img src="https://i0.wp.com/coffscoast.focusmag.com.au/focus-uploads/2017/02/000040233036.jpg?zoom=2.625&resize=387%2C184&ssl=1" width = 500/>
 
-## 待办
+## 待办 
 
 - 上网、交通、支付方式、信用卡
 - 装备租借（相机选择）
-- 代购清单（亲戚好友代购需求？）
+- 代购清单（亲戚好友代购需求？浅草寺御守）
 
 ## 准备进度
 
