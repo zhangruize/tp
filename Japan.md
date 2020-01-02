@@ -1,6 +1,7 @@
 # 日本旅行 🇯🇵🗼⛩️🍣
 
 <img src="https://i0.wp.com/coffscoast.focusmag.com.au/focus-uploads/2017/02/000040233036.jpg?zoom=2.625&resize=387%2C184&ssl=1" width = 500/>
+
 🌞日出6:00 🌚日落17:30 🌡️温度1-10度
 
 ## 待办 
@@ -25,6 +26,7 @@
 - SIM卡
 - 转换头&插线板
 - 现金 4w日元
+- 牙刷 牙膏
 
 ## 计划草稿
 
