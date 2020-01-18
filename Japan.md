@@ -3,6 +3,7 @@
 <img src="https://i0.wp.com/coffscoast.focusmag.com.au/focus-uploads/2017/02/000040233036.jpg?zoom=2.625&resize=387%2C184&ssl=1" width = 500/>
 
 🌞日出6:00 🌚日落17:30 🌡️温度1-10度
+储物柜查询[关西](https://www.coinlocker-navi.com/)[关东]( http://coinlockersearch.com/)
 
 ## 待办 
 
@@ -15,18 +16,17 @@
 |准备项|ZRZ|YIN|SW|ALL|
 |---|---|---|---|---|
 |护照|√|√|√|√|
-|签证|√|√|×|-|
+|签证|√|√|√|√|
 |机票往返|√ √|√ √|√ √|√|
 |攻略|-|-|-|√|
 |住宿|-|-|-|√|
 
 ## 准备清单
 
-- 西瓜卡
-- SIM卡
-- 转换头&插线板
-- 现金 4w日元
-- 牙刷 牙膏
+- 身份证 护照 笔 现金
+- SIM卡 西瓜卡 
+- 插排 充电宝 云台 相机 充电器
+- 牙刷 换洗衣物
 
 ## 计划草稿
 
@@ -60,7 +60,7 @@
 |||15:00-17:00|[清水寺](http://www.mafengwo.cn/poi/7516.html)|伏见稻荷-清水五条（京阪本线） 40min 御守&樱花铃铛 清水舞台 [参考](https://mimihan.tw/kiyomizu-temple/)|
 |||17:00|三年坂 二年坂 石塀小路|路边小店吃晚饭|
 |||18:00|（青莲院门迹） 衹园 八坂神社 花间小路|夜景|
-|||21:00|[民宿](https://goo.gl/maps/auXcx2RDwBuQjZrL9)|三条-出町柳（京阪本线） 出町柳-修学院（睿山电铁本线）20min 回地铁站取行李  附[储物柜查询](https://www.coinlocker-navi.com/)[(备用)]( http://coinlockersearch.com/)|
+|||21:00|[民宿](https://goo.gl/maps/auXcx2RDwBuQjZrL9)|三条-出町柳（京阪本线） 出町柳-修学院（睿山电铁本线）20min 回地铁站取行李|
 |**2-11 周二**|京都|||
 |||7:00-8:00|京都住处|早餐 在周边吃|
 |||8:30-11:00|银阁寺|修学院道-银阁寺道（市营5） 30min|
