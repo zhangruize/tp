@@ -57,8 +57,8 @@
 |||7:00-8:00|起床 早餐|早餐可以在周边吃|
 |||8:00|前往京都|JR奈良线-JR稻荷站 1h 行李存储物柜|
 |||9:00-13:00|[伏见稻荷大社](http://www.mafengwo.cn/poi/7518.html)|求签 千本鸟居 [细节参考](http://www.mafengwo.cn/gonglve/ziyouxing/146518.html)|
-|||14:00-15:00|和服体验 京都豆柴|待定|
-|||15:00-17:00|[清水寺](http://www.mafengwo.cn/poi/7516.html)|伏见稻荷-清水五条（京阪本线） 40min 御守&樱花铃铛 清水舞台 [参考](https://mimihan.tw/kiyomizu-temple/)|
+|||14:00-15:00|[和服体验](https://g.page/yumeyakata-kimono?share)|梦馆和服体验|
+|||15:00-17:00|[清水寺](http://www.mafengwo.cn/poi/7516.html)|伏见稻荷-清水五条（京阪本线） 40min 御守&樱花铃铛 狐狸面具 清水舞台 [参考](https://mimihan.tw/kiyomizu-temple/)|
 |||17:00|三年坂 二年坂 石塀小路|路边小店吃晚饭|
 |||18:00|（青莲院门迹） 衹园 八坂神社 花间小路|夜景|
 |||21:00|[民宿](https://goo.gl/maps/auXcx2RDwBuQjZrL9)|三条-出町柳（京阪本线） 出町柳-修学院（睿山电铁本线）20min 回地铁站取行李|
