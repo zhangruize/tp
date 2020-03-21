@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="perlin.js"></script>
+    <script src="whammy.js"></script>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+    <!-- <a id="download" download="clock.webm">Download WebM</a> -->
+    <canvas id="canvas"></canvas>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=0&id=4926650523&auto=0&height=32"></iframe>
+    <script>
+
+        noise.seed(Math.random());
+        let canvas = document.querySelector("#canvas");
+        let ctx = canvas.getContext("2d");
+        let w = canvas.width = window.innerWidth;
+        let h = canvas.height = window.innerHeight;
+        let sizeOfFieldPoint = 80;
+        let noiseZ = 0;
+        let strength = 20;
+        let m = 0.1;
+        let particleSize = 2;
+        let particles = new Array(1000);
+        let fieldPointCols = Math.floor(w / sizeOfFieldPoint) + 1;
+        let fieldPointRows = Math.floor(h / sizeOfFieldPoint) + 1;
+        let fieldPoints = new Array(fieldPointCols);
+        let video = new Whammy.Video(30);
+
+        //init field
+        for (x = 0; x < fieldPointCols; x++) {
+            fieldPoints[x] = new Array(fieldPointRows);
+        }
+
+        //init particles
+        for (i = 0; i < particles.length; i++) {
+            particles[i] = new Array(2)
+            particles[i][0] = [Math.random() * w / 9 + w / 4, Math.random() * h / 9 + h / 2];//init position
+            particles[i][1] = [Math.random() * Math.PI * 2, Math.random() * 1 - 0.5];//init velocity
+        }
+
+        function calculateAndDrawFieldPoints() {
+            for (x = 0; x < fieldPointCols; x++) {
+                for (y = 0; y < fieldPointRows; y++) {
+                    let angle = noise.simplex3(x / 30.0, y / 20.0, noiseZ / 50.0) * Math.PI * 2;
+                    let length = noise.simplex3(x / 30.0 + 5000, y / 20.0 + 5000, noiseZ / 100.0 + 6000) * strength;
+                    fieldPoints[x][y] = [angle, length];
+                    let fx = sizeOfFieldPoint * (x);
+                    let fy = sizeOfFieldPoint * (y);
+
+                    /*
+                    ctx.save();
+                    ctx.translate(fx, fy);
+                    ctx.rotate(angle);
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(0, length);//x/y模式或者 angle, length模式
+                    ctx.stroke();
+                    ctx.restore();
+                    */
+                }
+            }
+        }
+
+        function calculateAndDrawParticles() {
+            for (i = 0; i < particles.length; i++) {
+                let oldPos = particles[i][0];
+                oldPos = [(oldPos[0] + w) % w, (oldPos[1] + h) % h];
+                let oldVelocity = particles[i][1];
+                let newPos = [oldPos[0] + Math.cos(oldVelocity[0]) * oldVelocity[1], oldPos[1] + Math.sin(oldVelocity[0]) * oldVelocity[1]];
+                let field = fieldPoints[Math.floor(oldPos[0] / sizeOfFieldPoint)][Math.floor(oldPos[1] / sizeOfFieldPoint)];
+                let randomF = Math.random() * 0.8 + 0.2;
+                let newVelocity = [oldVelocity[0] + (field[0] - oldVelocity[0]) * m * randomF, oldVelocity[1] + (field[1] - oldVelocity[1]) * m * randomF];
+                particles[i][0] = newPos;
+                particles[i][1] = newVelocity;
+
+                ctx.fillStyle = "rgba(0,150,20,0.2)"
+                if (i % 2 == 0)
+                    ctx.strokeStyle = 'hsla(' + (40 + 30 * (i / particles.length)) + ',' + (60 + Math.sin(noiseZ) * 30) + '%,' + (Math.sin(noiseZ + i) * 20 + 60) + '%,' + (Math.abs(Math.sin(i) * 0.0) + 1) + ')';
+                else
+                    ctx.strokeStyle = 'hsla(' + (190 + 30 * (i / particles.length)) + ',' + (60 + Math.sin(noiseZ) * 30) + '%,' + (Math.sin(noiseZ + i) * 20 + 60) + '%,' + (Math.abs(Math.sin(i) * 0.0) + 1) + ')';
+                ctx.strokeStyle = particles[i][2];
+                // ctx.lineWidth = Math.abs(Math.sin(noiseZ/20) * 30)+1;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(oldPos[0], oldPos[1]);
+                ctx.lineTo(newPos[0], newPos[1]);
+                ctx.stroke();
+                // ctx.closePath();
+                //ctx.fillRect(oldPos[0], oldPos[1], particleSize, particleSize);
+            }
+        }
+
+        requestAnimationFrame(draw);
+
+        ctx.fillStyle = "rgb(0,0,0)"
+        ctx.fillRect(0, 0, w, h);
+        let frameCount = 0;
+
+        function draw() {
+            ctx.fillStyle = "rgba(0,0,0,0.05)"
+            ctx.fillRect(0, 0, w, h);
+            calculateAndDrawFieldPoints();
+            calculateAndDrawParticles();
+            noiseZ += 0.6;
+            frameCount++;
+            // video.add(ctx);
+            // if (frameCount > 30 * 14) {
+            // finalizeVideo();
+            // } else {
+            requestAnimationFrame(draw);
+            // }
+        }
+
+        function finalizeVideo() {
+            var output = video.compile();
+            var url = webkitURL.createObjectURL(output);
+
+            // document.getElementById('awesome').src = url; //toString converts it to a URL via Object URLs, falling back to DataURL
+            document.getElementById('download').style.display = '';
+            document.getElementById('download').href = url;
+        }
+    </script>
+</body>
