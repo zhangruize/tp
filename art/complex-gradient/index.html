@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LinearGradient~static</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+    <!-- <a id="download" download="clock.webm">Download WebM</a> -->
+    <canvas id="canvas"></canvas>
+    <script src="whammy.js"></script>
+    <script>
+
+        let canvas = document.querySelector("#canvas");
+        let ctx = canvas.getContext("2d");
+        let w = canvas.width = window.innerWidth;
+        let h = canvas.height = window.innerHeight;
+        // let video = new Whammy.Video(30);
+
+        requestAnimationFrame(draw);
+
+
+        ctx.fillStyle = "rgb(0,0,0)"
+        ctx.fillRect(0, 0, w, h);
+        let frameCount = 0;
+
+        function draw() {
+            onDraw();
+            frameCount++;
+            // video.add(ctx);
+            // if (frameCount > 30 * 14) {
+            // finalizeVideo();
+            // } else {
+            //requestAnimationFrame(draw);
+            // }
+        }
+
+        function finalizeVideo() {
+            var output = video.compile();
+            var url = webkitURL.createObjectURL(output);
+
+            // document.getElementById('awesome').src = url; //toString converts it to a URL via Object URLs, falling back to DataURL
+            document.getElementById('download').style.display = '';
+            document.getElementById('download').href = url;
+        }
+
+        var c1 = randomColor()
+        var c1t = randomColor()
+        var c1s = randomColor()
+        var c2 = randomColor()
+        var c2t = randomColor()
+        var c2s = randomColor()
+        var c3 = randomColor()
+        var c3t = randomColor()
+        var c3s = randomColor()
+        var c4 = randomColor()
+        var c4t = randomColor()
+        var c4s = randomColor()
+        // var c1 = "213,21,89"
+        // var c2 = "45,81,210"
+        // var c3 = "89,180,222"
+        // var c4 = "190,38,198"
+
+        var feather1 = [
+            createColorStop(0, "0,0,0", 0),
+            createColorStop(1, "0,0,0", 1)
+        ]
+        var csCount = 16
+        var cs2 = createRandomColorStop(c2, parseInt(csCount * Math.random()) + 1)
+        var c2h = h * Math.random()
+        var f2 = createRandomColorStop(c2, parseInt(csCount * Math.random()) + 1)
+        var f2w = w * Math.random()
+        var f2ws = f2w
+        var f2wt = w * Math.random()
+        var cs4 = createRandomColorStop(c4, parseInt(csCount * Math.random()) + 1)
+        var c4h = h * Math.random()
+        var f4 = createRandomColorStop(c4, parseInt(csCount * Math.random()) + 1)
+        var f4w = w * Math.random()
+
+
+        function updateValue(factor) {
+            c1 = calculateColor(factor, c1s, c1t)
+            c2 = calculateColor(factor, c2s, c2t)
+            c3 = calculateColor(factor, c3s, c3t)
+            c4 = calculateColor(factor, c4s, c4t)
+            f2w = intToward(factor, f2ws, f2wt)
+        }
+
+        function calculateColor(factor, color, targetColor) {
+            var targetRgb = targetColor.split(",")
+            var rgb = color.split(",")
+            return intToward(factor, parseInt(rgb[0]), parseInt(targetRgb[0])) + "," +
+                intToward(factor, parseInt(rgb[1]), parseInt(targetRgb[1])) + "," +
+                intToward(factor, parseInt(rgb[2]), parseInt(targetRgb[2]))
+        }
+
+        function intToward(factor, n1, target) {
+            return parseInt((target - n1) * factor + n1)
+        }
+
+        function onDraw() {
+            if (frameCount % 200 == 0) {
+                c1s = c1
+                c2s = c2
+                c3s = c3
+                c4s = c4
+                c1t = randomColor()
+                c2t = randomColor()
+                c3t = randomColor()
+                c4t = randomColor()
+                f2ws = f2w
+                f2wt = Math.random() * w
+            }
+            updateValue(frameCount % 200 / 200)
+            // updateOffset(cs2, 0.001)
+            // updateOffset(cs4, -0.001)
+
+            ctx.clearRect(0, 0, w, h)
+            ctx.globalCompositeOperation = "source-over"
+            ctx.fillStyle = wrapRgb(c1)
+            ctx.fillRect(0, 0, w, h)
+
+            ctx.fillStyle = createLinearGradient(0, 0, w, c2h, updateColorStop(cs2, c2))
+            ctx.fillRect(0, 0, w, h)
+
+            ctx.globalCompositeOperation = "destination-in"
+            ctx.fillStyle = createLinearGradient(0, 0, f2w, h, feather1)
+            ctx.fillRect(0, 0, w, h)
+
+            ctx.globalCompositeOperation = "destination-over"
+            ctx.fillStyle = createLinearGradient(0, 0, w, c4h, updateColorStop(cs4, c4))
+            ctx.fillRect(0, 0, w, h)
+
+            ctx.fillStyle = wrapRgb(c3)
+            ctx.fillRect(0, 0, w, h)
+
+            console.log(frameCount)
+        }
+
+        function updateOffset(stops, step) {
+            for (var i = 0; i < stops.length; i++) {
+                stops[i].offset += step
+                if (stops[i].offset > 1.0) {
+                    stops[i].offset -= 1
+                    stops[0].offset = 1
+                    stops[0].alpha = stops[i].alpha
+                } 
+                if (stop[i] < 0.0) {
+                    stops[i].offset += 1
+                    stops[0].offset = 0
+                    stops[0].alpha = stops[i].alpha
+                }
+                stops[i].offset = Math.abs(stops[i].offset)
+            }
+        }
+
+        function updateColorStop(stops, color) {
+            for (var i = 0; i < stops.length; i++) {
+                stops[i].color = color
+            }
+            return stops
+        }
+
+        function wrapRgb(color) {
+            return "rgb(" + color + ")"
+        }
+
+        function wrapRgba(color, alpha) {
+            return "rgba(" + color + "," + alpha + ")"
+        }
+
+        function random255() {
+            return parseInt(Math.random() * 255)
+        }
+
+        function randomColor() {
+            return random255() + "," + random255() + "," + random255()
+        }
+
+        function createLinearGradient(x1, y1, x2, y2, colorStops) {
+            var gradient = ctx.createLinearGradient(x1, y1, x2, y2)
+            for (var i = 0; i < colorStops.length; i++) {
+                gradient.addColorStop(colorStops[i].offset,
+                    wrapRgba(colorStops[i].color, colorStops[i].alpha))
+            }
+            return gradient
+        }
+
+        function createSimpleColorStops(color) {
+            return [
+                createColorStop(0, color, 0),
+                createColorStop(1, color, 1)
+            ]
+        }
+
+        function createLayer(drawFn) {
+            ctx.save()
+            ctx.clearRect(0, 0, w, h)
+            drawFn()
+            ctx.restore()
+            var i = new Image();
+            i.src = canvas.toDataURL();
+            return i;
+        }
+
+        function drawLayers(layers) {
+
+            ctx.globalCompositeOperation = "source-over"
+            for (var i = 0; i < layers.length; i++) {
+                ctx.drawImage(layers[i], 0, 0)
+            }
+        }
+
+        function createColorStop(offset, color, alpha) {
+            return { offset: offset, color: color, alpha: alpha }
+        }
+
+        function createRandomColorStop(color, stopCount) {
+            var stops = []
+            for (var i = 0; i < stopCount; i++) {
+                stops[i] = createColorStop(Math.random()*0.4+0.3, color, Math.random()*0.4+0.3)
+            }
+            return stops
+        }
+    </script>
+</body>
