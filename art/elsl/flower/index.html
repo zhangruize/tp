@@ -22,7 +22,7 @@
         // Title: ExpStep
         
         #ifdef GL_ES
-        precision mediump float;
+        precision highp float;
         #endif
         #define PI 3.1415926
         
@@ -51,7 +51,7 @@
         
         vec3 plot(vec2 st, float ri, float ro, float n, vec3 colorOld, vec3 colorNew, float blur){
             ro*=3.;
-            // blur*=2.5;
+            blur*=2.5;
             // colorNew = vec3((colorNew.x+colorNew.y+colorNew.z)/3.);
             vec2 toCenter = st-vec2(.5); 
             float dis = length(toCenter);
@@ -60,8 +60,8 @@
             float modHR = modHalfRegular(angle, aRange);
             //dynamic radius.
             float r = mix(ri, ro+sin(u_time)*.25, modHR);
-            vec3 c = blurEdge(r, blur, dis) * colorNew;
-            // vec3 c = wideEdge(r, blur, dis) * colorNew;
+            //vec3 c = blurEdge(r, blur, dis) * colorNew;
+             vec3 c = wideEdge(r, blur, dis) * colorNew;
             //clear original color
             return dis > r ? c+colorOld : c+colorOld*.0;
         }
@@ -129,10 +129,11 @@
         }
         void main() {
             vec2 st = gl_FragCoord.xy/u_resolution;
+            st.x *= u_resolution.x/u_resolution.y;
             vec3 color = vec3(0.);
             float n = 8., ringColorOffset = .3;
             st-=vec2(.06+sin(u_time)*.05, .06+cos(u_time)*.03);
-            // st = tile(st,1.13);
+            // st = tile(st,2.13);
             st = tile(st,0.63);
             st = rotateTilePattern(st);
             st = rotate2D(st, u_time/4. + 1. * PI / n);
@@ -151,8 +152,8 @@
             color = plot(st, .03, .08, n, color, vec3(absSinTime(ringColorOffset*4., .9), absSinTime(1.+ringColorOffset*4., .9), absSinTime(2.+ringColorOffset*4., .9)), .015 + absSinTime(5., .05));
            
             // noise
-            // color=mix(color, color*random1d(gl_FragCoord.xy/u_resolution ,2.),.88);
-            // color = mix(color, color*pixelRandom(gl_FragCoord.xy/u_resolution,200.),.15);
+           // color=mix(color, color*random1d(gl_FragCoord.xy/u_resolution ,2.),1.);
+           // color = mix(color, color*pixelRandom(gl_FragCoord.xy/u_resolution,200.),.25);
             gl_FragColor = vec4(vec3(color),1.0);
         }
         
@@ -222,7 +223,7 @@
         }
 
         function render() {
-            uniforms.u_time.value += 0.05;
+            uniforms.u_time.value += 0.015;
             renderer.render( scene, camera );
         }
     </script>
