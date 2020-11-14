@@ -19,8 +19,6 @@
     </script>
 
     <script id="fragmentShader" type="x-shader/x-fragment">
-        // Author: Inigo Quiles
-        // Title: ExpStep
         
         #ifdef GL_ES
         precision mediump float;
@@ -78,27 +76,15 @@
         
         vec2 rotateTilePattern(vec2 _st){
         
-            //  Scale the coordinate system by 2x2
             _st *= 2.0;
         
-            //  Give each cell an index number
-            //  according to its position
             float index = 0.0;
             index += step(1., mod(_st.x,2.0));
             index += step(1., mod(_st.y,2.0))*2.0;
         
-            //      |
-            //  2   |   3
-            //      |
-            //--------------
-            //      |
-            //  0   |   1
-            //      |
         
-            // Make each cell between 0.0 - 1.0
             _st = fract(_st);
         
-            // Rotate each cell according to the index
             if(index == 1.0){
                 //  Rotate cell 1 by 90 degrees
                 _st = rotate2D(_st,PI*0.5);
