@@ -1,6 +1,13 @@
-  
+<head>
+    <title>zrzw</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
 <!-- Copyright 2015 Patricio Gonzalez Vivo (http://patriciogonzalezvivo.com) -->
-<body>
+<body style="margin:0">
     <div id="container"></div>
     <script src="https://threejs.org/build/three.min.js"></script>
 
@@ -11,14 +18,144 @@
     </script>
 
     <script id="fragmentShader" type="x-shader/x-fragment">
+        // Author: Inigo Quiles
+        // Title: ExpStep
+        
+        #ifdef GL_ES
+        precision mediump float;
+        #endif
+        #define PI 3.1415926
+        
         uniform vec2 u_resolution;
         uniform vec2 u_mouse;
         uniform float u_time;
-
-        void main() {
-            vec2 st = gl_FragCoord.xy/u_resolution.xy;
-            gl_FragColor=vec4(st.x,st.y,0.0,1.0);
+        
+        float blurEdge(float bound, float blur, float value){
+            return smoothstep(bound-blur, bound, value)-smoothstep(bound, bound+blur, value);
         }
+        
+        float wideEdge(float bound, float blur, float value){
+            return step(bound-blur, value)-step(bound+blur, value);
+        }
+        
+        vec2 rotate2D(vec2 _st, float _angle){
+            _st -= 0.5;
+            _st =  mat2(cos(_angle),-sin(_angle), sin(_angle),cos(_angle)) * _st;
+            _st += 0.5;
+            return _st;
+        }
+        
+        float modHalfRegular(float value, float modValue){
+            return abs(mod(value, modValue)-modValue/2.)*2./modValue;
+        }
+        
+        vec3 plot(vec2 st, float ri, float ro, float n, vec3 colorOld, vec3 colorNew, float blur){
+            ro*=3.;
+            // blur*=2.5;
+            // colorNew = vec3((colorNew.x+colorNew.y+colorNew.z)/3.);
+            vec2 toCenter = st-vec2(.5); 
+            float dis = length(toCenter);
+            float angle = atan(toCenter.y, toCenter.x);
+            float aRange = 2.*PI/n;
+            float modHR = modHalfRegular(angle, aRange);
+            //dynamic radius.
+            float r = mix(ri, ro+sin(u_time)*.25, modHR);
+            vec3 c = blurEdge(r, blur, dis) * colorNew;
+            // vec3 c = wideEdge(r, blur, dis) * colorNew;
+            //clear original color
+            return dis > r ? c+colorOld : c+colorOld*.0;
+        }
+        
+        float absSinTime(float offset, float factor){
+            return abs(sin(u_time+offset))*factor;
+        }
+        
+        vec2 tile(vec2 _st, float _zoom){
+            _st *= _zoom;
+            return fract(_st);
+        }
+        
+        vec2 rotateTilePattern(vec2 _st){
+        
+            //  Scale the coordinate system by 2x2
+            _st *= 2.0;
+        
+            //  Give each cell an index number
+            //  according to its position
+            float index = 0.0;
+            index += step(1., mod(_st.x,2.0));
+            index += step(1., mod(_st.y,2.0))*2.0;
+        
+            //      |
+            //  2   |   3
+            //      |
+            //--------------
+            //      |
+            //  0   |   1
+            //      |
+        
+            // Make each cell between 0.0 - 1.0
+            _st = fract(_st);
+        
+            // Rotate each cell according to the index
+            if(index == 1.0){
+                //  Rotate cell 1 by 90 degrees
+                _st = rotate2D(_st,PI*0.5);
+            } else if(index == 2.0){
+                //  Rotate cell 2 by -90 degrees
+                _st = rotate2D(_st,PI*-0.5);
+            } else if(index == 3.0){
+                //  Rotate cell 3 by 180 degrees
+                _st = rotate2D(_st,PI);
+            }
+        
+            return _st;
+        }
+        
+        float random (vec2 st) {
+            return fract(sin(dot(st.xy,
+                                 vec2(12.9898,78.233)))*
+                43758.5453123);
+        }
+        float pixelRandom (vec2 st, float n) {
+            return floor(fract(sin(dot(st.xy,
+                                 vec2(12.9898,78.233)))*
+                43758.5453123)*n)/n;
+        }
+        float random1d (vec2 st, float n) {
+            return floor(fract((st.x*(.2+abs(cos(u_time/10.)))-st.y+u_time/20.)*3.)*n)/n;
+                // return floor(fract(sin(st.x-st.y+u_time*1.)+u_time)*n)/n;
+                    // return floor(sin(st.x-st.y+u_time*1.)*n)/n;
+        }
+        void main() {
+            vec2 st = gl_FragCoord.xy/u_resolution;
+            vec3 color = vec3(0.);
+            float n = 8., ringColorOffset = .3;
+            st-=vec2(.06+sin(u_time)*.05, .06+cos(u_time)*.03);
+            // st = tile(st,1.13);
+            st = tile(st,0.63);
+            st = rotateTilePattern(st);
+            st = rotate2D(st, u_time/4. + 1. * PI / n);
+            color = plot(st, .07, .175, n, color, vec3(absSinTime(0., .9), absSinTime(1., .9),  absSinTime(2., .9)), .015 + absSinTime(1., .06));
+            
+            st = rotate2D(st, u_time/5.5 + 1. * PI / n);
+            color = plot(st, .065, .15, n, color, vec3(absSinTime(ringColorOffset*1., .9), absSinTime(1.+ringColorOffset*1., .9),  absSinTime(2.+ringColorOffset*1., .9)), .015 + absSinTime(2., .04));
+            
+            st = rotate2D(st, u_time/7. + 1. * PI / n);
+            color = plot(st, .06, .14, n, color, vec3(absSinTime(ringColorOffset*2., .9), absSinTime(1.+ringColorOffset*2., .9),  absSinTime(2.+ringColorOffset*2., .9)), .015 + absSinTime(3., .025));
+            
+            st = rotate2D(st, u_time/8.5 + 1. * PI / n);
+            color = plot(st, .055, .11, n, color, vec3(absSinTime(ringColorOffset*3., .9), absSinTime(1.+ringColorOffset*3., .9), absSinTime(2.+ringColorOffset*3., .9)), .015 + absSinTime(4., .014));
+            
+            st = rotate2D(st, u_time/10. + 1. * PI / n);
+            color = plot(st, .03, .08, n, color, vec3(absSinTime(ringColorOffset*4., .9), absSinTime(1.+ringColorOffset*4., .9), absSinTime(2.+ringColorOffset*4., .9)), .015 + absSinTime(5., .05));
+           
+            // noise
+            // color=mix(color, color*random1d(gl_FragCoord.xy/u_resolution ,2.),.88);
+            // color = mix(color, color*pixelRandom(gl_FragCoord.xy/u_resolution,200.),.15);
+            gl_FragColor = vec4(vec3(color),1.0);
+        }
+        
     </script>
 
     <script>
